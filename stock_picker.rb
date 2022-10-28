@@ -9,7 +9,6 @@ def stock_picker(prices)
         if holding_price > price
             holding_price = price
             holding_index = index
-            next
         end
 
         if price - holding_price > profit
